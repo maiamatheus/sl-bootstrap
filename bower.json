@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap",
+  "name": "softlayertwitterbootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "3.1.1",
+  "version": "0.0.0",
   "keywords": [
     "css",
     "js",
@@ -12,9 +12,10 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "https://gitlab.softlayer.local/jebrown/softlayertwitterbootstrap",
   "main": [
     "less/bootstrap.less",
+    "less/overrides/variables.less",
     "dist/css/bootstrap.css",
     "dist/js/bootstrap.js",
     "dist/fonts/glyphicons-halflings-regular.eot",

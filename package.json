@@ -11,7 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "https://gitlab.softlayer.local/jebrown/softlayertwitterbootstrap/tree/master",
+  "homepage": "https://gitlab.softlayer.local/interface/softlayertwitterbootstrap",
   "author": "Twitter, Inc. / SoftLayer",
   "scripts": {
     "test": "grunt test"
@@ -20,7 +20,7 @@
   "less": "less/bootstrap.less",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.softlayer.local:jebrown/softlayertwitterbootstrap.git"
+    "url": "git@gitlab.softlayer.local:interface/softlayertwitterbootstrap.git"
   },
   "license": {
     "type": "MIT",

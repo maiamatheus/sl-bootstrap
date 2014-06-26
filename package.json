@@ -1,5 +1,5 @@
 {
-  "name": "softlayertwitterbootstrap",
+  "name": "sl-bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "0.1.0",
   "keywords": [
@@ -11,16 +11,16 @@
     "framework",
     "web"
   ],
-  "homepage": "https://gitlab.softlayer.local/interface/softlayertwitterbootstrap",
+  "homepage": "https://gitlab.softlayer.local/interface/sl-bootstrap",
   "author": "Twitter, Inc. / SoftLayer",
   "scripts": {
     "test": "grunt test"
   },
-  "style": "dist/css/bootstrap.css",
+  "style": "dist/css/sl-bootstrap.css",
   "less": "less/bootstrap.less",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.softlayer.local:interface/softlayertwitterbootstrap.git"
+    "url": "git@gitlab.softlayer.local:interface/sl-bootstrap.git"
   },
   "license": {
     "type": "MIT",

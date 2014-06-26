@@ -214,8 +214,8 @@ module.exports = function (grunt) {
         csslintrc: 'less/.csslintrc'
       },
       src: [
-        'dist/css/bootstrap.css',
-        'dist/css/bootstrap-theme.css'
+        'dist/css/<%= pkg.name %>.css',
+        'dist/css/<%= pkg.name %>-theme.css'
       ],
       examples: [
         'docs/examples/**/*.css'

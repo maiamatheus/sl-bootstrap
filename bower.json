@@ -1,5 +1,5 @@
 {
-  "name": "softlayertwitterbootstrap",
+  "name": "sl-bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "0.1.0",
   "keywords": [
@@ -12,11 +12,11 @@
     "framework",
     "web"
   ],
-  "homepage": "https://gitlab.softlayer.local/interface/softlayertwitterbootstrap",
+  "homepage": "https://gitlab.softlayer.local/interface/sl-bootstrap",
   "main": [
     "less/bootstrap.less",
-    "dist/css/softlayertwitterbootstrap.css",
-    "dist/js/softlayertwitterbootstrap.js",
+    "dist/css/sl-bootstrap.css",
+    "dist/js/sl-bootstrap.js",
     "dist/fonts/glyphicons-halflings-regular.eot",
     "dist/fonts/glyphicons-halflings-regular.svg",
     "dist/fonts/glyphicons-halflings-regular.ttf",

@@ -1,6 +1,6 @@
 /*!
- * Bootstrap v3.2.0 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
+ * Bootstrap v0.1.1 (https://gitlab.softlayer.local/interface/sl-bootstrap)
+ * Copyright 2011-2014 Twitter, Inc. / SoftLayer
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 

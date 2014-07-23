@@ -1,0 +1,40 @@
+// Tabs
+
+.nav-tabs {
+  border-bottom: 1px solid darken(@gray-light, 8%);
+  > li {
+    > a {
+      padding: @padding-base-vertical @padding-base-horizontal;
+      margin-right: 4px;
+      color: #fff;
+      background-color: darken(@gray-light, 8%);
+      border: 1px solid darken(@gray-light, 8%);
+      border-bottom-color: darken(@gray-light, 8%);
+      &:hover,
+      &:focus {
+        background-color: darken(@gray-light, 16%);
+        border: 1px solid darken(@gray-light, 16%);
+        border-bottom-color: darken(@gray-light, 8%);
+      }
+    }
+
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: darken(@gray, 8%);
+        background-color: @gray-lighter;
+        border: 1px solid darken(@gray-light, 8%);
+        border-bottom-color: transparent;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.tab-content {
+  padding: @padding-base-horizontal;
+  background-color: @gray-lighter;
+  border: 1px solid darken(@gray-light, 8%);
+  border-top-width: 0;
+}

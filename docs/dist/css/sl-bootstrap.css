@@ -2426,8 +2426,8 @@ output {
 .form-control:focus {
   border-color: #298fce;
   outline: 0;
-  -webkit-box-shadow: inset 0 0 1px #298fce;
-          box-shadow: inset 0 0 1px #298fce;
+  -webkit-box-shadow: inset 0 0 1px #5d6165;
+          box-shadow: inset 0 0 1px #5d6165;
 }
 .form-control::-moz-placeholder {
   color: #e1e3e4;
@@ -3413,6 +3413,18 @@ input[type="button"].btn-block {
   border-width: 0;
   border-bottom-width: 1px;
 }
+.btn:active,
+.btn.active {
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  -webkit-box-shadow: inset 0 2px 16px rgba(0, 0, 0, .25);
+          box-shadow: inset 0 2px 16px rgba(0, 0, 0, .25);
+}
+.btn:focus,
+.btn:active,
+.btn:focus {
+  outline: 0 !important;
+}
 .btn-primary {
   color: #fff;
   background-color: #298fce;
@@ -3994,6 +4006,11 @@ tbody.collapse.in {
 .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.dropdown-menu > li > a {
+  padding: 4px 12px;
 }
 .open button {
   border-bottom-right-radius: 0;
@@ -5465,8 +5482,8 @@ a.thumbnail.active {
 .alert-danger .alert-link {
   color: #843534;
 }
-.alert .alert-link {
-  font-weight: bold;
+.alert-dismissible .close {
+  top: -1px;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {

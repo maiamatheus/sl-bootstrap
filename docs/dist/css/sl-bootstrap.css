@@ -2426,6 +2426,8 @@ output {
 .form-control:focus {
   border-color: #298fce;
   outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .form-control::-moz-placeholder {
   color: #e1e3e4;

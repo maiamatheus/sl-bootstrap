@@ -1,3 +1,10 @@
+.modal {
+  &.fade .modal-dialog {
+    .translate3d(0, 0, 0);
+    .transition-transform(~"0.15s ease-out");
+  }
+}
+
 .modal-content {
   border-radius: @border-radius-base;
   .box-shadow(none);

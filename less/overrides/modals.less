@@ -1,0 +1,22 @@
+.modal-content {
+  border-radius: @border-radius-base;
+  .box-shadow(none);
+}
+
+.modal-header {
+  background-color: @gray-lighter;
+  border-bottom: 1px solid @modal-header-border-color;
+  border-radius: @border-radius-base @border-radius-base 0 0;
+  font-weight: bold;
+  min-height: (@modal-title-padding-vertical + @modal-title-line-height);
+  padding: @padding-base-vertical @modal-title-padding;
+
+  .close {
+    line-height: 110%;
+  }
+}
+
+.modal-footer {
+  border-radius: 0 0 @border-radius-base @border-radius-base;
+  padding: @modal-title-padding;
+}

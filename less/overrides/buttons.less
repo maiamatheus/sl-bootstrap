@@ -8,6 +8,15 @@
     border-top-width: 1px;
     .box-shadow(inset 0 2px 16px rgba(0,0,0,.25));
   }
+
+  &-link {
+    &:active,
+    &.active {
+      border-bottom-width: 1px;
+      border-top-width: 0;
+      .box-shadow(none);
+    }
+  }
 }
 
 .btn:focus, .btn:active, .btn:focus {

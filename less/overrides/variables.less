@@ -1,3 +1,9 @@
+// Close
+
+@close-font-weight:           normal;
+@close-color:                 @gray;
+@close-text-shadow:           none;
+
 // Colors
 
 @gray-darker:           #393c40;
@@ -139,3 +145,50 @@
 
 //** Deprecated `@dropdown-caret-color` as of v3.1.0
 @dropdown-caret-color:           #fff;
+
+
+// Modals
+
+@modal-inner-padding: @padding-base-horizontal;
+
+@modal-title-padding: @padding-base-horizontal;
+@modal-title-padding-vertical: @padding-base-vertical;
+
+@modal-title-line-height:     @line-height-base;
+
+//** Background color of modal content area
+@modal-content-bg:                             #fff;
+//** Modal content border color
+@modal-content-border-color:                   @gray-dark;
+//** Modal content border color **for IE8**
+@modal-content-fallback-border-color:          @gray;
+
+//** Modal backdrop background color
+@modal-backdrop-bg:           #000;
+//** Modal backdrop opacity
+@modal-backdrop-opacity:      .5;
+//** Modal header border color
+@modal-header-border-color:   @gray-light;
+//** Modal footer border color
+@modal-footer-border-color:   @modal-header-border-color;
+
+@modal-lg:                    900px;
+@modal-md:                    600px;
+@modal-sm:                    300px;
+
+
+// Panels
+
+@panel-bg:                    #fff;
+@panel-body-padding:          @padding-base-horizontal;
+@panel-heading-padding:       @padding-base-vertical @padding-base-horizontal;
+@panel-footer-padding:        @padding-base-vertical @padding-base-horizontal;
+@panel-border-radius:         @border-radius-base;
+
+//** Border color for elements within panels
+@panel-inner-border:          #ddd;
+@panel-footer-bg:             @gray-lighter;
+
+@panel-default-text:          @text-color;
+@panel-default-border:        @gray-light;
+@panel-default-heading-bg:    @gray-lighter;

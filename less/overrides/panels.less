@@ -1,7 +1,20 @@
 .panel {
+  background-color: @gray-lighter;
+  border: 0;
   .box-shadow(none);
 }
 
 .panel-heading {
-  font-weight: bold;
+  background-color: @brand-inert;
+  border: 0;
+  color: #fff;
+  font-size: @font-size-h4;
+  font-weight: lighter;
+}
+
+.panel-default {
+  >.panel-heading {
+    background-color: @brand-inert;
+    color: #fff;
+  }
 }

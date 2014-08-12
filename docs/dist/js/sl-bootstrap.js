@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v0.4.0 (https://gitlab.softlayer.local/interface/sl-bootstrap)
+ * Bootstrap v0.4.1 (https://gitlab.softlayer.local/interface/sl-bootstrap)
  * Copyright 2011-2014 Twitter, Inc. / SoftLayer
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */

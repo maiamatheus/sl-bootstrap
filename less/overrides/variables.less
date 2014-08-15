@@ -6,13 +6,13 @@
 
 // Colors
 
-@gray-darker:           #393c40;
-@gray-dark:             #5d6165;
-@gray:                  #9a9da0;
-@gray-light:            #d8dadb;
-@gray-lighter:          #eceeef;
+@gray-darker:           #333940;
+@gray-dark:             #5a6169;
+@gray:                  #989fa6;
+@gray-light:            #d3d7db;
+@gray-lighter:          #e8ebed;
 
-@brand-inert:           #34495d;
+@brand-inert:           @gray-dark;
 @brand-primary:         #298fce;
 @brand-success:         #00a14b;
 @brand-info:            #fadb00;
@@ -118,11 +118,11 @@
 // Dropdowns
 
 //** Background for the dropdown menu.
-@dropdown-bg:                    #34495d;
+@dropdown-bg:                    @gray-dark;
 //** Dropdown menu `border-color`.
-@dropdown-border:                darken(@dropdown-bg, 8%);
+@dropdown-border:                @dropdown-bg;
 //** Dropdown menu `border-color` **for IE8**.
-@dropdown-fallback-border:       darken(@dropdown-bg, 8%);
+@dropdown-fallback-border:       @dropdown-bg;
 //** Divider color for between dropdown items.
 @dropdown-divider-bg:            darken(@dropdown-bg, 8%);
 

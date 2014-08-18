@@ -13,20 +13,25 @@
 }
 
 .modal-header {
-  background-color: @gray-dark;
+  background-color: #fff;
   border: 0;
   border-radius: @border-radius-base @border-radius-base 0 0;
-  color: #fff;
-  font-size: @font-size-h4;
+  color: @text-color;
+  font-size: @font-size-h2;
   font-weight: lighter;
+  line-height: 1em;
   min-height: (@modal-title-padding-vertical + @modal-title-line-height);
-  padding: @padding-base-vertical @modal-title-padding;
+  padding: @padding-base-horizontal;
   text-rendering: optimizeLegibility;
 
   .close {
-    color: #fff;
+    color: @gray-light;
     font-weight: lighter;
-    line-height: 1.1em;
+    line-height: 0.8em;
+
+    &:hover {
+      color: @brand-danger;
+    }
   }
 }
 

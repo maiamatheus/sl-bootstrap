@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v0.5.0 (https://gitlab.softlayer.local/interface/sl-bootstrap)
+ * Bootstrap v0.5.2 (https://gitlab.softlayer.local/interface/sl-bootstrap)
  * Copyright 2011-2014 Twitter, Inc. / SoftLayer
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -3420,6 +3420,8 @@ input[type="button"].btn-block {
 .btn {
   border-width: 0;
   border-bottom-width: 1px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn:active,
 .btn.active {
@@ -4578,6 +4580,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e8ebed;
   border: 0;
   border-radius: 0 2px 2px 2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navbar {
   position: relative;
@@ -5496,6 +5500,8 @@ a.thumbnail.active {
 }
 .alert {
   border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .alert-dismissible .close {
   top: -1px;
@@ -6115,21 +6121,24 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #ebccd1;
 }
 .panel {
-  background-color: #e8ebed;
+  background-color: #fff;
   border: 0;
+  border-bottom: 1px solid rgba(232, 235, 237, .8);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 .panel-heading {
-  font-size: 16px;
+  padding: 12px;
+  font-size: 20px;
   font-weight: lighter;
+  line-height: 1em;
   color: #fff;
   background-color: #5a6169;
   border: 0;
 }
 .panel-default > .panel-heading {
-  color: #fff;
-  background-color: #5a6169;
+  color: #5a6169;
+  background-color: #fff;
 }
 .embed-responsive {
   position: relative;
@@ -6357,11 +6366,12 @@ button.close {
 }
 .modal-header {
   min-height: 7.42857143px;
-  padding: 6px 12px;
-  font-size: 16px;
+  padding: 12px;
+  font-size: 20px;
   font-weight: lighter;
-  color: #fff;
-  background-color: #5a6169;
+  line-height: 1em;
+  color: #5a6169;
+  background-color: #fff;
   border: 0;
   border-radius: 2px 2px 0 0;
 
@@ -6369,8 +6379,11 @@ button.close {
 }
 .modal-header .close {
   font-weight: lighter;
-  line-height: 1.1em;
-  color: #fff;
+  line-height: .8em;
+  color: #d3d7db;
+}
+.modal-header .close:hover {
+  color: #94302e;
 }
 .modal-body,
 .modal-footer {

@@ -1,6 +1,7 @@
 .panel {
-  background-color: @gray-lighter;
+  background-color: #fff;
   border: 0;
+  border-bottom: 1px solid fade(@gray-lighter, 80%);
   .box-shadow(none);
 }
 
@@ -8,13 +9,15 @@
   background-color: @brand-inert;
   border: 0;
   color: #fff;
-  font-size: @font-size-h4;
+  font-size: @font-size-h2;
   font-weight: lighter;
+  line-height: 1em;
+  padding: @padding-base-horizontal;
 }
 
 .panel-default {
   >.panel-heading {
-    background-color: @gray-dark;
-    color: #fff;
+    background-color: #fff;
+    color: @text-color;
   }
 }

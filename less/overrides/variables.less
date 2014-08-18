@@ -11,6 +11,7 @@
 @gray:                  #989fa6;
 @gray-light:            #d3d7db;
 @gray-lighter:          #e8ebed;
+@gray-lightest:         #f6f7f7;
 
 @brand-inert:           @gray-dark;
 @brand-primary:         #298fce;
@@ -56,6 +57,12 @@
 @input-border:                   @gray-light;
 @input-border-focus:             @brand-primary;
 @input-color:                    @gray-dark;
+
+
+// Grid system
+
+@grid-columns:              12;
+@grid-gutter-width:         @padding-base-horizontal * 2;
 
 
 // Alerts
@@ -186,10 +193,20 @@
 @panel-footer-padding:        @padding-base-vertical @padding-base-horizontal;
 @panel-border-radius:         @border-radius-base;
 
-//** Border color for elements within panels
 @panel-inner-border:          @gray-light;
 @panel-footer-bg:             @gray-lighter;
 
 @panel-default-text:          @text-color;
 @panel-default-border:        @gray-light;
 @panel-default-heading-bg:    @gray-lighter;
+
+@panel-margin-bottom:         @grid-gutter-width * 3/4;
+
+
+// Scaffolding
+
+@body-bg:               @gray-lightest;
+@text-color:            @gray-dark;
+
+@link-color:            @brand-primary;
+@link-hover-color:      darken(@link-color, 15%);

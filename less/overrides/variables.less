@@ -6,13 +6,13 @@
 
 // Colors
 
-@gray-darker:           #333940;
-@gray-dark:             #5a6169;
-@gray:                  #989fa6;
-@gray-light:            #d3d7db;
-@gray-lighter:          #e3e6e8;
-@gray-lightest:         #f1f2f3;
-@gray-white:            #f7f9fa;
+@gray-darker:           #3b3e42;
+@gray-dark:             #616469;
+@gray:                  #9ca0a6;
+@gray-light:            #d6d9dd;
+@gray-lighter:          #e0e3e7;
+@gray-lightest:         #eff1f3;
+@gray-white:            #f9fafb;
 
 @brand-inert:           @gray-dark;
 @brand-primary:         #298fce;
@@ -204,6 +204,11 @@
 @panel-margin-bottom:         @grid-gutter-width * 3/4;
 
 
+// Progress bars
+
+@progress-bg: @gray-lightest;
+
+
 // Scaffolding
 
 @body-bg:               @gray-lightest;
@@ -211,3 +216,16 @@
 
 @link-color:            @brand-primary;
 @link-hover-color:      darken(@link-color, 15%);
+
+
+// Tables
+
+@table-cell-padding:            @padding-base-vertical @padding-base-horizontal;
+@table-condensed-cell-padding:  @padding-base-vertical/2 @padding-base-horizontal;
+
+@table-bg:                      white;
+@table-bg-accent:               @gray-white;
+@table-bg-hover:                @gray-lightest;
+@table-bg-active:               @table-bg-hover;
+
+@table-border-color:            @gray-lightest;

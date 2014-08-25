@@ -186,6 +186,25 @@
 @modal-sm:                    300px;
 
 
+// Pagination
+
+@pagination-color:                     white;
+@pagination-bg:                        @btn-default-bg;
+@pagination-border:                    @btn-default-border;
+
+@pagination-hover-color:               white;
+@pagination-hover-bg:                  darken(@btn-default-bg, 4%);
+@pagination-hover-border:              @btn-default-border;
+
+@pagination-active-color:              white;
+@pagination-active-bg:                 @gray-darker;
+@pagination-active-border:             darken(@gray-darker, 8%);
+
+@pagination-disabled-color:            @gray-dark;
+@pagination-disabled-bg:               @gray-light;
+@pagination-disabled-border:           darken(@gray-light, 8%);
+
+
 // Panels
 
 @panel-bg:                    #fff;
@@ -223,7 +242,7 @@
 @table-cell-padding:            @padding-base-vertical @padding-base-horizontal;
 @table-condensed-cell-padding:  @padding-base-vertical/2 @padding-base-horizontal;
 
-@table-bg:                      white;
+@table-bg:                      transparent;
 @table-bg-accent:               @gray-white;
 @table-bg-hover:                @gray-lightest;
 @table-bg-active:               @table-bg-hover;

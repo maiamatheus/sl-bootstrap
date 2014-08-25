@@ -4,24 +4,30 @@
 // and disabled options for all buttons
 
 .button-variant(@color; @background; @border) {
-  color: @color;
-  background-color: @background;
-  border-color: @border;
+  &,
+  &:focus,
+  &.focus {
+    color: @color;
+    background-color: @background;
+    border-color: @border;
+  }
 
   &:hover,
-  &:focus,
   &:active,
   &.active,
-  .open > .dropdown-toggle& {
+  &.dropdown-toggle:hover,
+  &.dropdown-toggle:active {
     color: @color;
     background-color: darken(@background, 4%);
     border-color: @border;
   }
+
   &:active,
   &.active,
-  .open > .dropdown-toggle& {
+  .open > .dropdown-toggle {
     background-image: none;
   }
+
   &.disabled,
   &[disabled],
   fieldset[disabled] & {

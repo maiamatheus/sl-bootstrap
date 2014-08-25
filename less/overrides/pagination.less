@@ -2,24 +2,19 @@
   > li {
     > a,
     > span {
-      text-decoration: none;
-      color: @pagination-color;
       background-color: @pagination-bg;
       border: 1px solid @pagination-border;
-      border-width: 0 1px 1px 0;
+      border-width: 0 0 1px 0;
+      border-radius: @border-radius-base;
+      color: @pagination-color;
       margin-left: 0;
+      text-decoration: none;
 
       &:active,
       &.active {
         border-bottom-width: 0;
         border-top-width: 1px;
         .box-shadow(inset 0 2px 16px rgba(0,0,0,.25));
-      }
-    }
-    &:last-child {
-      > a,
-      > span {
-        border-right-width: 0;
       }
     }
   }

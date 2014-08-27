@@ -1,14 +1,36 @@
+.dropdown {
+  button {
+    &:active,
+    &.active {
+      .box-shadow(none);
+    }
+  }
+}
+
 .dropdown-menu {
   margin-top: -1px;
+  background: @gray-white;
+  border: 1px solid @gray-light;
   border-top-left-radius: 0;
   .box-shadow(none);
 
   > li > a {
+    color: @brand-primary;
     padding: 4px @padding-base-horizontal;
+
+    &:hover {
+      background: @brand-primary;
+      color: #fff;
+    }
+  }
+
+  .divider {
+    background: @gray-light;
   }
 }
 
 .open button {
+  background: @gray-white;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -19,6 +41,7 @@
   &.focus {
     background-color: transparent;
     border-color: transparent;
+    .box-shadow(none);
     color: @brand-primary;
   }
 }

@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v0.6.0 (https://gitlab.softlayer.local/interface/sl-bootstrap)
+ * Bootstrap v0.6.1 (https://gitlab.softlayer.local/interface/sl-bootstrap)
  * Copyright 2011-2014 Twitter, Inc. / SoftLayer
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -4074,12 +4074,13 @@ tbody.collapse.in {
     left: 0;
   }
 }
-.dropdown button:active,
-.dropdown button.active {
+.btn-group.dropdown button:active,
+.btn-group.dropdown button.active {
   -webkit-box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
           box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
 }
-.dropdown-menu {
+.btn-group.dropdown .dropdown-menu {
+  padding: 6px 0;
   margin-top: -1px;
   background: #f9fafb;
   border: 1px solid #d6d9dd;
@@ -4087,46 +4088,49 @@ tbody.collapse.in {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.dropdown-menu > li > a {
+.btn-group.dropdown .dropdown-menu > li > a {
   padding: 4px 12px;
   color: #298fce;
 }
-.dropdown-menu > li > a:hover {
+.btn-group.dropdown .dropdown-menu > li > a:hover {
   color: #fff;
   background: #298fce;
 }
-.dropdown-menu .divider {
+.btn-group.dropdown .dropdown-menu .divider {
+  margin: 6px 0;
   background: #d6d9dd;
 }
-.open button {
-  background: #f9fafb;
+.btn-group.dropdown.open button {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   -webkit-box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
           box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
 }
-.dropdown-hover button,
-.dropdown-hover button:focus,
-.dropdown-hover button.focus {
+.btn-group.dropdown.dropdown-hover button,
+.btn-group.dropdown.dropdown-hover button:focus,
+.btn-group.dropdown.dropdown-hover button.focus {
   color: #298fce;
   background-color: transparent;
+  border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.dropdown-hover button:hover,
-.dropdown-hover button.hover {
+.btn-group.dropdown.dropdown-hover button:hover,
+.btn-group.dropdown.dropdown-hover button.hover {
   color: #298fce;
   background-color: #edf0f3;
   border-color: #d6d9dd;
   -webkit-box-shadow: inset 0 -1px 1px rgba(39, 42, 45, .05);
           box-shadow: inset 0 -1px 1px rgba(39, 42, 45, .05);
 }
-.dropdown-hover button:active,
-.dropdown-hover button.active {
+.btn-group.dropdown.dropdown-hover button:active,
+.btn-group.dropdown.dropdown-hover button.active {
+  border-color: #d6d9dd;
   -webkit-box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
           box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
 }
-.dropdown-hover.open button {
+.btn-group.dropdown.dropdown-hover.open button {
+  border-color: #d6d9dd;
   -webkit-box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
           box-shadow: inset 0 1px 6px rgba(39, 42, 45, .1);
 }

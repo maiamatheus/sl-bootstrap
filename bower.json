@@ -1,7 +1,7 @@
 {
   "name": "sl-bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "0.6.1",
+  "version": "1.0.0",
   "keywords": [
     "css",
     "js",
@@ -12,7 +12,7 @@
     "framework",
     "web"
   ],
-  "homepage": "https://gitlab.softlayer.local/interface/sl-bootstrap",
+  "homepage": "https://github.com/softlayer/sl-bootstrap",
   "main": [
     "less/bootstrap.less",
     "dist/css/sl-bootstrap.css",
@@ -28,6 +28,7 @@
     "CNAME",
     "composer.json",
     "CONTRIBUTING.md",
+    "SOFTLAYER-CHANGES.md",
     "docs",
     "js/tests",
     "test-infra"
